@@ -2,6 +2,10 @@
   "name": "wiro-ai-sdk",
   "module": "src/index.ts",
   "type": "module",
+  "scripts":{
+    "dev":"bun run src/index.ts",
+    "type-check-deeply": "tsc --noEmit --pretty"
+  }
   "private": true,
   "devDependencies": {
     "@types/bun": "latest"
